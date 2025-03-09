@@ -4,7 +4,7 @@ import { motion, useScroll, useTransform } from 'framer-motion';
 
 const Section1 = () => {
   const { scrollYProgress: scrollYProgress1 } = useScroll();
-  const y1 = useTransform(scrollYProgress1, [0, 0.20], ['0%', '100%']);
+  const y1 = useTransform(scrollYProgress1, [0, 0.22], ['0%', '100%']);
 
   return (
     <div className='bg-white h-screen w-screen flex text-black'>
